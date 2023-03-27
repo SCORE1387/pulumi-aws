@@ -1,0 +1,8 @@
+config:
+  aws:region: eu-west-1
+  instance_type: t2.micro
+  ami_id: ami-00169914e6299b8e0
+  asg:
+    min: 1
+    max: 6
+    desired: 2
